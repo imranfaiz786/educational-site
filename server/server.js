@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import slideRoutes from './routes/slideRoutes.js';
+import slideRoutes from '../routes/slideRoutes.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
